@@ -33,10 +33,12 @@ ul li a:hover {
 h1 {
   color:rgb(0, 0, 0);
   text-align:center;
+  font-family:'Times New Roman', Times, serif
+  font-size: 60px
 }
 
 p {
-  font-family:Verdana;
+  font-family:'Times New Roman', Times, serif
   font-size: 20px
 }
 
