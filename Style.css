@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #948f03;
 }
 
 ul li {
@@ -37,7 +37,9 @@ h1 {
   font-size: 60px
 }
 
-p {
+h6 {
+  color:rgb(51, 5, 38)
+  text-align:center;
   font-family:'Times New Roman', Times, serif
   font-size: 20px
 }
