@@ -99,7 +99,7 @@ h4 {
   text-align:left;
   font-family:'Times New Roman', Times, serif;
   font-size: 16px;
-  width: 50%; /*Zorgt voor halve breedte op het scherm*/
+  width: 70%; /*Zorgt voor halve breedte op het scherm*/
   margin-left: 0; /*Centreert het element links*/
 }
 }
