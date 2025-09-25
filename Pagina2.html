@@ -69,18 +69,20 @@ li.dropdown {
 
 <body> <!--Dit is het beginelement van body-->
 
-<ul>
-    <a href="index.html">Home</a> <!--Dit is een anchor naar de Homepagina-->
+<div class="navbar">
+ <a href="index.html">Home</a>
     <a href="invoertotuitvoer.html">Invoertotuitvoer</a>
-    <a href="binairstelsel.html">Binair stelsel</a>
     <a href="kleurmodellen.html">Kleurmodellen</a>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-    <div class="dropdown-content">
-      <a href="Pagina2.html">Pagina 2</a>
-    </div>
-  </li>
-</ul>
+ <div class="dropdown">
+   <button class="dropbtn">Binair stelsel
+     <i class="fa fa-caret-down"></i>
+   </button>
+   <div class="dropdown-content">
+    <a href="binairstelsel.html">Binair stelsel</a>
+     <a href="Pagina2.html">Pagina 2</a>
+   </div>
+ </div>
+</div>
 </body> <!--Dit is het sluitelement van body-->
 
 </html> <!--Dit is het sluitelement van html-->
