@@ -94,7 +94,8 @@ h3 {
   text-align:left;
   font-family:'Times New Roman', Times, serif;
   font-size: 26px;
-  background-color: rgb(238, 198, 149);
+  background-color: rgb(238, 198, 149);padding:10px;
+  border-radius: 5px;
 }
 
 h4 {
