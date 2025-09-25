@@ -98,6 +98,8 @@ h4 {
   color:rgb(51, 5, 38);
   text-align:left;
   font-family:'Times New Roman', Times, serif;
-  font-size: 16px
+  font-size: 16px;
+  width: 50%; /*Zorgt voor halve breedte op het scherm*/
+  margin-left: 0; /*Centreert het element links*/
 }
 }
