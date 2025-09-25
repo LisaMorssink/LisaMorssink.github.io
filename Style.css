@@ -108,4 +108,12 @@ h4 {
   width: 70%; /*Zorgt voor halve breedte op het scherm*/
   margin-left: 0; /*Centreert het element links*/
 }
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
 }
