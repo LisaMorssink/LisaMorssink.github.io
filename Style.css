@@ -119,7 +119,7 @@ h4 {
   width: 90%; /*Zorgt voor halve breedte op het scherm*/
   margin-left: 0; /*Centreert het element links*/
   background-color: rgb(125, 163, 128); /*Achtergrondkleur van de tekst*/
-  width: 500px; /*Breedte van de box*/
+  width: 800px; /*Breedte van de box*/
   padding: 50px; /*Maakt ruimte binnen de box*/
   margin: 20px auto; /*Centreren op de pagina*/
   border-radius: 15px; /*Maakt de hoeken rond*/
