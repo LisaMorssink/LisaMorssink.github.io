@@ -1,10 +1,10 @@
 body {
 
-background-color: antiquewhite;
+background-color: rgb(199, 247, 212);
 
 .navbar {
   overflow: hidden;
-  background-color: #f7ff9f;
+  background-color: #95ca91;
   font-family:sans-serif;
   gap:10px; /*Ruimte tussen items*/
   flex-wrap:wrap; /*Zorgt dat het netjes blijft op kleinere schermen*/
@@ -46,13 +46,13 @@ background-color: antiquewhite;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(215, 220, 67);
+  background-color: rgb(104, 145, 93);
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f7ff9f;
+  background-color: #95ca91;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -68,7 +68,7 @@ background-color: antiquewhite;
 }
 
 .dropdown-content a:hover {
-  background-color: #f7ff9f;
+  background-color: #95ca91;
 }
 
 .dropdown:hover .dropdown-content {
@@ -118,7 +118,7 @@ h4 {
   font-size: 16px; /*Grootte van de tekst*/
   width: 90%; /*Zorgt voor halve breedte op het scherm*/
   margin-left: 0; /*Centreert het element links*/
-  background-color: rgb(244, 238, 159); /*Achtergrondkleur van de tekst*/
+  background-color: rgb(125, 163, 128); /*Achtergrondkleur van de tekst*/
   width: 500px; /*Breedte van de box*/
   padding: 50px; /*Maakt ruimte binnen de box*/
   margin: 20px auto; /*Centreren op de pagina*/
@@ -132,7 +132,7 @@ h4 {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(246, 248, 210);
+  background-color: rgb(125, 163, 128);
   color: white;
   text-align: center;
   font-family:sans-serif;
