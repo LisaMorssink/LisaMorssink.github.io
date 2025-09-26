@@ -117,7 +117,6 @@ h4 {
   font-family:sans-serif; /*Font (stijl) van de tekst*/
   font-size: 16px; /*Grootte van de tekst*/
   width: 90%; /*Zorgt voor halve breedte op het scherm*/
-  margin-left: 0; /*Centreert het element links*/
   background-color: rgb(125, 163, 128); /*Achtergrondkleur van de tekst*/
   width: 800px; /*Breedte van de box*/
   padding: 50px; /*Maakt ruimte binnen de box*/
