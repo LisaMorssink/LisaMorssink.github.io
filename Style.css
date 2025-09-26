@@ -116,7 +116,7 @@ h4 {
   text-align:center; /*Centreert tekst op de pagina*/
   font-family:sans-serif; /*Font (stijl) van de tekst*/
   font-size: 16px; /*Grootte van de tekst*/
-  width: 70%; /*Zorgt voor halve breedte op het scherm*/
+  width: 90%; /*Zorgt voor halve breedte op het scherm*/
   margin-left: 0; /*Centreert het element links*/
   background-color: rgb(244, 159, 235); /*Achtergrondkleur van de tekst*/
   width: 500px; /*Breedte van de box*/
