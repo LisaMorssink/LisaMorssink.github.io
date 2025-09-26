@@ -13,7 +13,7 @@ background-color: rgb(199, 247, 212);
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 24px;
   color: white;
   text-align: center;
   padding: 20px 24px;
@@ -35,7 +35,7 @@ background-color: rgb(199, 247, 212);
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 24px;  
   border: none;
   outline: none;
   color: rgb(255, 255, 255);
