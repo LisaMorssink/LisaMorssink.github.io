@@ -76,6 +76,22 @@ background-color: rgb(199, 247, 212);
 }
 /*dropdown menu*/
 
+/*scrol gallerij*/
+.afbeelding-galerij {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+.afbeelding-galerij img {
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
 /*tekst*/
 
 h1 {
