@@ -129,12 +129,12 @@ h3 {
 }
 
 h4 {
-  color:rgb(85, 111, 105); /*Tekstkleur*/
+  color:rgb(95, 123, 116); /*Tekstkleur*/
   text-align:center; /*Centreert tekst op de pagina*/
   font-family:sans-serif; /*Font (stijl) van de tekst*/
   font-size: 16px; /*Grootte van de tekst*/
   width: 90%; /*Zorgt voor halve breedte op het scherm*/
-  background-color: rgb(125, 163, 128); /*Achtergrondkleur van de tekst*/
+  background-color: rgb(157, 187, 159); /*Achtergrondkleur van de tekst*/
   width: 800px; /*Breedte van de box*/
   padding: 50px; /*Maakt ruimte binnen de box*/
   margin: 20px auto; /*Centreren op de pagina*/
