@@ -5,7 +5,10 @@ background-color: antiquewhite;
 .navbar {
   overflow: hidden;
   background-color: #2aa3f3;
-  font-family:'Times New Roman', Times, serif
+  font-family:'Times New Roman', Times, serif;
+  gap:10px; /*Ruimte tussen items*/
+  flex-wrap:wrap; /*Zorgt dat het netjes blijft op kleinere schermen*/
+
 }
 
 .navbar a {
@@ -16,6 +19,11 @@ background-color: antiquewhite;
   padding: 20px 24px;
   text-decoration: none;
   font-family:'Times New Roman', Times, serif;
+}
+
+/*Logo*/
+.logo img {
+  height:30px;
 }
 
 .dropdown {
