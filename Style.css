@@ -4,7 +4,7 @@ background-color: antiquewhite;
 
 .navbar {
   overflow: hidden;
-  background-color: #2aa3f3;
+  background-color: #f7ff9f;
   font-family:sans-serif;
   gap:10px; /*Ruimte tussen items*/
   flex-wrap:wrap; /*Zorgt dat het netjes blijft op kleinere schermen*/
