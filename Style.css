@@ -5,7 +5,7 @@ background-color: antiquewhite;
 .navbar {
   overflow: hidden;
   background-color: #2aa3f3;
-  font-family:'Times New Roman', Times, serif;
+  font-family:sans-serif;
   gap:10px; /*Ruimte tussen items*/
   flex-wrap:wrap; /*Zorgt dat het netjes blijft op kleinere schermen*/
 
@@ -18,7 +18,7 @@ background-color: antiquewhite;
   text-align: center;
   padding: 20px 24px;
   text-decoration: none;
-  font-family:'Times New Roman', Times, serif;
+  font-family:sans-serif;
 }
 
 /*Logo*/
@@ -38,7 +38,7 @@ background-color: antiquewhite;
   color: rgb(255, 255, 255);
   padding: 20px 24px;
   background-color: inherit;
-  font-family:'Times New Roman', Times, serif;
+  font-family:sans-serif;
   margin: 0;
 }
 
@@ -78,7 +78,7 @@ background-color: antiquewhite;
 h1 {
   color:rgb(0, 0, 0);
   text-align:center;
-  font-family:'Times New Roman', Times, serif;
+  font-family:sans-serif;
   font-size: 50px;
   padding-left: 0px;
   padding-right: 0px;
@@ -100,7 +100,7 @@ h2 {
 h3 {
   color:rgb(51, 5, 38);
   text-align:left;
-  font-family:'Times New Roman', Times, serif;
+  font-family:sans-serif;
   font-size: 26px;
   display: inline-block;
   background-color: rgb(238, 198, 149);padding:10px;
@@ -111,7 +111,7 @@ h3 {
 h4 {
   color:rgb(51, 5, 38); /*Tekstkleur*/
   text-align:center; /*Centreert tekst op de pagina*/
-  font-family:'Times New Roman', Times, serif; /*Font (stijl) van de tekst*/
+  font-family:sans-serif; /*Font (stijl) van de tekst*/
   font-size: 16px; /*Grootte van de tekst*/
   width: 70%; /*Zorgt voor halve breedte op het scherm*/
   margin-left: 0; /*Centreert het element links*/
@@ -132,7 +132,7 @@ h4 {
   background-color: rgb(0, 123, 255);
   color: white;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:sans-serif;
   padding:20px;
 }
 
