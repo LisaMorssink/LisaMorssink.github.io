@@ -46,13 +46,13 @@ background-color: antiquewhite;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(67, 121, 220);
+  background-color: rgb(215, 220, 67);
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #3971f3;
+  background-color: #f7ff9f;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -68,7 +68,7 @@ background-color: antiquewhite;
 }
 
 .dropdown-content a:hover {
-  background-color: #2d90e7;
+  background-color: #f7ff9f;
 }
 
 .dropdown:hover .dropdown-content {
@@ -132,7 +132,7 @@ h4 {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(0, 123, 255);
+  background-color: rgb(246, 248, 210);
   color: white;
   text-align: center;
   font-family:sans-serif;
