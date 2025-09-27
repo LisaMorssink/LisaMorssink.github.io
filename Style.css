@@ -27,7 +27,8 @@ background-color: rgb(199, 247, 212);
   height:100px;
   width:auto;
   display:block;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .dropdown {
