@@ -130,6 +130,7 @@ h3 {
   width: 300px; /*Breedte van de box*/
   margin: 20px auto; /*Centreren op de pagina*/
   border-radius: 15px; /*Maakt de hoeken rond*/
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 h4 {
@@ -143,6 +144,7 @@ h4 {
   padding: 50px; /*Maakt ruimte binnen de box*/
   margin: 20px auto; /*Centreren op de pagina*/
   border-radius: 15px; /*Maakt de hoeken rond*/
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 /*footer*/
