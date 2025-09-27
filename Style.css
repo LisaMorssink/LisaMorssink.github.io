@@ -3,12 +3,13 @@ body {
 background-color: rgb(199, 247, 212);
 
 .navbar {
-  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #95ca91;
-  font-family:sans-serif;
-  gap:10px; /*Ruimte tussen items*/
-  flex-wrap:wrap; /*Zorgt dat het netjes blijft op kleinere schermen*/
-
+  font-family: sans-serif;
+  padding: 0 20px;
+  flex-wrap: wrap;
 }
 
 .navbar a {
