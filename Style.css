@@ -147,7 +147,7 @@ h3 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Diepte */
 }
 
-/* 📱 Extra aanpassing voor kleine schermen */
+/* Extra aanpassing voor kleine schermen */
 @media (max-width: 500px) {
   h3 {
     font-size: 1rem; /* Iets kleiner op mobiel */
