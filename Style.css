@@ -96,18 +96,6 @@ background-color: rgb(199, 247, 212);
   padding:20px; /*testje*/
 }
 
-/*Achtergrondfoto*/
-.achtergrond {
-  background-image: url('Afbeeldingen/kleuren.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 100px 20px;
-  height:300px;
-  color: white;
-  text-align: center;
-}
-
 /*tekst*/
 p.outset {
   border-style: outset;
