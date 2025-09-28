@@ -74,17 +74,18 @@ background-color: rgb(199, 247, 212); /*Dit is het element voor de achtergrondkl
   padding: 15px 20px; /*Dit geeft ruimte rondom de links voor stijl*/
   text-decoration: none; /*Verwijdert de standaard onderstreping van links*/
   display: block; /*Dit maakt elke link een block-element*/
-  text-align: center;
+  text-align: center; /*Het element zorgt ervoor dat de tekst in het midden van de block komt.*/
 }
 
+/*Hover-effect voor de links in het dropdown-menu*/
 .dropdown-content a:hover {
-  background-color: rgb(104, 145, 93);
+  background-color: rgb(104, 145, 93); /*Geeft een lichtgroene tint als achtergrondkleur*/
 }
 
+/*Dit zorgt ervoor dat het dropdown-menu zichtbaar wordt bij hover over de dropdown container*/
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*dropdown menu*/
 
 /*Scroll galerij*/
 .afbeelding-galerij {
