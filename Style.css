@@ -51,14 +51,15 @@ background-color: rgb(199, 247, 212); /*Dit is het element voor de achtergrondkl
   text-align: center; /*Hierdoor wordt de tekst gecentreerd*/
 }
 
+/*Hover-effect voor de navigatielinks en dropdownknop*/
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: rgb(104, 145, 93);
+  background-color: rgb(104, 145, 93); /*Dit geeft een donkergroene tint bij hoveren*/
 }
 
-/* Dropdown-menu */
+/* Dropdown-menu dat verschijnt bij hoveren*/
 .dropdown-content {
-  display: none;
+  display: none; /**/
   position: absolute;
   background-color: #95ca91;
   min-width: 160px;
