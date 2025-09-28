@@ -103,6 +103,7 @@ background-color: rgb(199, 247, 212);
   background-position: center;
   background-repeat: no-repeat;
   padding: 100px 20px;
+  height:300px;
   color: white;
   text-align: center;
 }
