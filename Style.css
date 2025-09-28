@@ -157,16 +157,15 @@ h4 {
 /*footer*/
 
 .footer {
-  position:fixed;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: rgb(125, 163, 128);
   color: white;
   text-align: center;
-  font-family:sans-serif;
-  padding:20px;
-  margin:20px auto;
+  font-family: sans-serif;
+  padding: 20px 0;
 }
 
 }
