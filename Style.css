@@ -59,20 +59,21 @@ background-color: rgb(199, 247, 212); /*Dit is het element voor de achtergrondkl
 
 /* Dropdown-menu dat verschijnt bij hoveren*/
 .dropdown-content {
-  display: none; /**/
-  position: absolute;
-  background-color: #95ca91;
-  min-width: 160px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  z-index: 1;
-  width: 100%;
+  display: none; /*Verberg het menu standaard*/
+  position: absolute; /*Dit positioneert het menu aan de dropdown container*/
+  background-color: #95ca91; /*Dit geeft een lichtgroene achtergrondkleur*/
+  min-width: 160px; /*Dit is de minimale breedte van het dropdownmenu*/
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /*Geeft een interessant schaduw-effect aan de box*/
+  z-index: 1; /*Zorgt dat het menu boven alle andere elementen ligt*/
+  width: 100%; /*Dit handige element laat het menu de volledige breedte van de container innemen*/
 }
 
+/*Dit geeft een stijl voor de links in het dropdown-menu*/
 .dropdown-content a {
-  color: white;
-  padding: 15px 20px;
-  text-decoration: none;
-  display: block;
+  color: white; /*Dit geeft de tekst een witte kleur*/
+  padding: 15px 20px; /*Dit geeft ruimte rondom de links voor stijl*/
+  text-decoration: none; /*Verwijdert de standaard onderstreping van links*/
+  display: block; /*Dit maakt elke link een block-element*/
   text-align: center;
 }
 
