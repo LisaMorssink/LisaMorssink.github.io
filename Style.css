@@ -161,7 +161,7 @@ h4 {
   font-family: sans-serif; /* gewoon leesbaar lettertype */
   font-size: 1rem; /* normale grootte */
   width: 90%; /* past zich aan scherm aan */
-  max-width: 700px; /* niet te breed op grote schermen */
+  max-width: 800px; /* niet te breed op grote schermen */
   background-color: rgb(232, 207, 230); /* lichtroze achtergrond */
   padding: 20px; /* ruimte binnenin */
   margin: 20px auto; /* gecentreerd */
