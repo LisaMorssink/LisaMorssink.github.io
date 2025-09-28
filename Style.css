@@ -87,13 +87,13 @@ background-color: rgb(199, 247, 212);
 .afbeelding-galerij {
   display: flex; /* zet ze naast elkaar */
   overflow-x: auto; /* horizontaal scrollen */
-  gap: 10px; /* minder ruimte tussen plaatjes */
+  gap: 5px; /* minder ruimte tussen plaatjes */
   padding: 15px; /* niet te veel ruimte */
   scroll-behavior: smooth; /* lekker soepel scrollen */
 }
 
 .afbeelding-galerij img {
-  height: 150px; /* kleiner zodat het past */
+  height: 100px; /* kleiner zodat het past */
   width: auto; /* breedte past zich aan */
   flex-shrink: 0; /* niet laten krimpen */
   border-radius: 10px; /* ronde hoeken zijn chill */
