@@ -93,7 +93,7 @@ background-color: rgb(199, 247, 212);
 }
 
 .afbeelding-galerij img {
-  height: 300px; /* kleiner zodat het past */
+  height: 400px; /* kleiner zodat het past */
   width: auto; /* breedte past zich aan */
   flex-shrink: 0; /* niet laten krimpen */
   border-radius: 10px; /* ronde hoeken zijn chill */
