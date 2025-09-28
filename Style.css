@@ -89,92 +89,93 @@ background-color: rgb(199, 247, 212); /*Dit is het element voor de achtergrondkl
 
 /*Scroll galerij*/
 .afbeelding-galerij {
-  display: flex; /* zet ze naast elkaar */
-  overflow-x: auto; /* horizontaal scrollen */
-  gap: 5px; /* minder ruimte tussen plaatjes */
-  padding: 15px; /* niet te veel ruimte */
-  scroll-behavior: smooth; /* lekker soepel scrollen */
+  display: flex; /*Dit zet de afbeeldingen naast elkaar*/
+  overflow-x: auto; /*Hierdoor kan je horizontaal scrollen*/
+  gap: 5px; /*De ruimte tussen de afbeeldingen, een gap van 5 pixels*/
+  padding: 15px; /*Geeft ruimte rondom de afbeeldingen*/
+  scroll-behavior: smooth; /*Hierdoor kan je soepel scrollen*/
 }
 
+/**/
 .afbeelding-galerij img {
-  height: 220px; /* kleiner zodat het past */
-  width: auto; /* breedte past zich aan */
-  flex-shrink: 0; /* niet laten krimpen */
-  border-radius: 10px; /* ronde hoeken zijn chill */
-  object-fit: contain; /* hele afbeelding zichtbaar */
-  padding: 5px; /* beetje ruimte rondom */
+  height: 220px; /*Maakt de hoogte 220 pixels hoog*/
+  width: auto; /*Hierdoor past de breedte zich automatisch aan als de hoogte verandert*/
+  flex-shrink: 0; /*Dit voorkomt dat de afbeelding krimpt in een flex-container*/
+  border-radius: 10px; /*Zorgt voor ronde hoeken*/
+  object-fit: contain; /*Dit maakt de gehele afbeelding zichtbaar, passend bij de hoogte*/
+  padding: 5px; /*Geeft ruimte rondom de afbeeldingen*/
 }
 
 /*tekst*/
 p.outset {
-  border-style: outset; /* Geeft een 3D-rand */
-  text-align: center; /* Centreert de tekst */
-  margin: 40px auto; /* Gecentreerd op de pagina */
-  width: 90%; /* Past zich aan schermbreedte aan */
-  max-width: 600px; /* Beperkt breedte op grote schermen */
-  font-size: 1.1rem; /* Schaalbare tekstgrootte */
+  border-style: outset; /*Geeft de border een 3D rand*/
+  text-align: center; /*Centreert de tekst*/
+  margin: 40px auto; /*Gecentreerd op de pagina*/
+  width: 90%; /*Past zich aan schermbreedte aan*/
+  max-width: 600px; /*Beperkt breedte op grote schermen*/
+  font-size: 1.1rem; /*Schaalbare tekstgrootte*/
 }
 
 h1 {
-  color: rgb(63, 98, 90); /* donkergroene tekstkleur */
-  text-align: center; /* zet de tekst in het midden */
-  font-family: sans-serif; /* gewoon strak en leesbaar */
-  font-size: 2.5rem; /* iets kleiner zodat het niet te overdreven is */
-  width: 90%; /* past zich aan aan schermgrootte */
-  max-width: 700px; /* niet te breed op desktop */
-  margin: 20px auto; /* netjes gecentreerd */
-  padding: 10px; /* beetje ruimte rondom */
+  color: rgb(63, 98, 90); /*donkergroene tekstkleur*/
+  text-align: center; /*zet de tekst in het midden*/
+  font-family: sans-serif; /*geeft de tekst een sans-serif font, stijlvol*/
+  font-size: 2.5rem; /*iets kleiner zodat het niet te overdreven is*/
+  width: 90%; /*past zich aan aan schermgrootte*/
+  max-width: 700px; /*maximale hoogte is 700 pixels*/
+  margin: 20px auto; /*netjes gecentreerde tekst*/
+  padding: 10px; /*Geeft ruimte rondom de tekst*/
 }
 
-/* voor kleinere schermen zoals mobiel */
+/*voor kleinere schermen zoals mobiel*/
 @media (max-width: 500px) {
   h1 {
-    font-size: 1.8rem; /* kleiner op mobiel zodat het past */
-    padding: 8px; /* minder ruimte */
-    max-width: 90%; /* mag wat breder op kleine schermen */
+    font-size: 1.8rem; /*kleiner op mobiel zodat het past*/
+    padding: 8px; /*minder ruimte*/
+    max-width: 90%; /*mag wat breder op kleine schermen*/
   }
 }
 
 h2 {
-  color: rgb(63, 98, 90); /* donkergroen tekstkleur */
-  text-align: center; /* zet de tekst in het midden */
-  font-family: 'Times New Roman', Times, serif; /* klassiek lettertype */
-  font-size: 2rem; /* iets kleiner zodat het niet te groot is */
-  width: 90%; /* past zich aan aan schermgrootte */
-  max-width: 600px; /* niet te breed op desktop */
-  margin: 20px auto; /* netjes gecentreerd */
-  padding: 10px; /* beetje ruimte rondom */
+  color: rgb(63, 98, 90); /*donkergroen tekstkleur*/
+  text-align: center; /*zet de tekst in het midden*/
+  font-family: 'Times New Roman', Times, serif; /*klassiek lettertype*/
+  font-size: 2rem; /*iets kleiner zodat het niet te groot is*/
+  width: 90%; /*past zich aan aan schermgrootte*/
+  max-width: 600px; /*niet te breed op desktop*/
+  margin: 20px auto; /*netjes gecentreerd*/
+  padding: 10px; /*Geeft ruimte rondom de tekst*/
 }
 
-/*voor kleinere schermen zoals mobiel */
+/*voor kleinere schermen zoals mobiel*/
 @media (max-width: 500px) {
   h2 {
-    font-size: 1.5rem; /* kleiner op mobiel */
-    padding: 8px; /* minder ruimte */
-    max-width: 90%; /* mag wat breder op kleine schermen */
+    font-size: 1.5rem; /*kleiner op mobiel*/
+    padding: 8px; /*minder ruimte*/
+    max-width: 90%; /*maximale breedte is 90% van het scherm*/
   }
 }
 
 h3 {
-  color: rgb(182, 225, 195); /* Tekstkleur */
-  text-align: center; /* Centreert tekst */
-  font-family: sans-serif; /* Fontstijl */
-  font-size: 1.2rem; /* Basisgrootte, schaalt mee */
-  width: 90%; /* Flexibele breedte */
-  max-width: 300px; /* Beperkt op grote schermen */
-  background-color: rgb(63, 86, 65); /* Achtergrondkleur */
-  padding: 20px; /* Compacte binnenruimte */
-  margin: 20px auto; /* Gecentreerd */
-  border-radius: 15px; /* Ronde hoeken */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Diepte */
+  color: rgb(182, 225, 195); /*Tekstkleur*/
+  text-align: center; /*Centreert tekst*/
+  font-family: sans-serif; /*Fontstijl*/
+  font-size: 1.2rem; /*Basisgrootte, schaalt mee*/
+  width: 90%; /*Flexibele breedte*/
+  max-width: 300px; /*Beperkt op grote schermen*/
+  background-color: rgb(63, 86, 65); /*Achtergrondkleur is donkergroen*/
+  padding: 20px; /*Geeft ruimte rondom de tekst*/
+  margin: 20px auto; /*Gecentreerd*/
+  border-radius: 15px; /*Ronde hoeken*/
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /*Voegt een schaduw toe aan de box, stijlvol*/
 }
 
-/* Extra aanpassing voor kleine schermen */
+/* Extra aanpassing voor kleine schermen*/
 @media (max-width: 500px) {
   h3 {
-    font-size: 1rem; /* Iets kleiner op mobiel */
-    padding: 15px; /* Minder ruimte binnenin */
-    max-width: 90%; /* Laat het breder worden op kleine schermen */
+    font-size: 1rem; /*Iets kleiner op mobiel*/
+    padding: 15px; /*Geeft ruimte rondom de tekst*/
+    max-width: 90%; /*Laat het breder worden op kleine schermen*/
   }
 }
 
@@ -186,7 +187,7 @@ h4 {
   width: 90%; /* past zich aan scherm aan */
   max-width: 800px; /* niet te breed op grote schermen */
   background-color: rgb(232, 207, 230); /* lichtroze achtergrond */
-  padding: 20px; /* ruimte binnenin */
+  padding: 20px; /*Geeft ruimte rondom de tekst*/
   margin: 20px auto; /* gecentreerd */
   border-radius: 15px; /* ronde hoeken zijn mooi */
   box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* beetje schaduw voor diepte */
@@ -196,7 +197,7 @@ h4 {
 @media (max-width: 500px) {
   h4 {
     font-size: 0.9rem; /* iets kleiner op mobiel */
-    padding: 15px; /* minder ruimte binnenin */
+    padding: 15px; /*Geeft ruimte rondom de tekst*/
     max-width: 90%; /* mag wat breder op kleine schermen */
   }
 }
