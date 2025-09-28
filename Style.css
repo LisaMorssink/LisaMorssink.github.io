@@ -205,16 +205,16 @@ h4 {
 
 /*footer*/
 .footer {
-  background-color: #488461;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  font-family: sans-serif;
-  border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  width: 95%;
-  max-width: 1000px;
-  margin: 40px auto;
-}
+  background-color: #488461; /*geeft de footer een donkergroene kleur*/
+  color: white; /*geeft de tekst een witte kleur*/
+  text-align: center; /*zorgt dat de tekst gecentreerd staat*/
+  padding: 15px; /*geeft ruimte rondom de tekst*/
+  font-family: sans-serif; /*zorgt dat de tekst een font heeft: sans-serif*/
+  border-radius: 15px; /*geeft ronde hoeken aan de footer*/
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /*maakt een mooi 3D schaduw effect*/
+  width: 95%; /*Dit neemt 95% van de beschikbare ruimte in*/
+  max-width: 1000px; /*De maximale breedte, 1000 px*/
+  margin: 40px auto; /*dit is de boven- en ondermarge, deze is horizontaal gecentreerd*/
+} 
 
-}
+} /*het sluitelement van body*/
