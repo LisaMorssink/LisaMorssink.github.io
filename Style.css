@@ -180,31 +180,30 @@ h3 {
 }
 
 h4 {
-  color: rgb(95, 123, 116); /* beetje groenig */
-  text-align: center; /* tekst in het midden */
-  font-family: sans-serif; /* gewoon leesbaar lettertype */
-  font-size: 1rem; /* normale grootte */
-  width: 90%; /* past zich aan scherm aan */
-  max-width: 800px; /* niet te breed op grote schermen */
-  background-color: rgb(232, 207, 230); /* lichtroze achtergrond */
+  color: rgb(95, 123, 116); /*Groene tekstkleur*/
+  text-align: center; /*tekst in het midden*/
+  font-family: sans-serif; /*Geeft een mooi sans-serf font aan de tekst*/
+  font-size: 1rem; /*normale grootte*/
+  width: 90%; /*past zich aan scherm aan*/
+  max-width: 800px; /*niet te breed op grote schermen, maximaal 800 pixels*/
+  background-color: rgb(232, 207, 230); /*lichtroze achtergrond*/
   padding: 20px; /*Geeft ruimte rondom de tekst*/
-  margin: 20px auto; /* gecentreerd */
-  border-radius: 15px; /* ronde hoeken zijn mooi */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* beetje schaduw voor diepte */
+  margin: 20px auto; /*gecentreerd*/
+  border-radius: 15px; /*Maakt ronde hoeken*/
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /*een beetje schaduw voor diepte en stijl*/
 }
 
-/* voor kleinere schermen zoals mobiel */
+/*voor kleinere schermen zoals mobiel*/
 @media (max-width: 500px) {
   h4 {
-    font-size: 0.9rem; /* iets kleiner op mobiel */
+    font-size: 0.9rem; /*iets kleiner op mobiel*/
     padding: 15px; /*Geeft ruimte rondom de tekst*/
-    max-width: 90%; /* mag wat breder op kleine schermen */
+    max-width: 90%; /*mag wat breder op kleine schermen, maximale breedte is 90% van het scherm*/
   }
 }
 
 
 /*footer*/
-
 .footer {
   background-color: #488461;
   color: white;
