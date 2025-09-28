@@ -83,21 +83,22 @@ background-color: rgb(199, 247, 212);
 /*dropdown menu*/
 
 /*Scroll galerij*/
+/* scrol gallerij */
 .afbeelding-galerij {
-  display: flex; /* Zet ze naast elkaar */
-  overflow-x: auto; /* Scrollen mogelijk */
-  gap: 20px; /* Ruimte tussen plaatjes */
-  padding: 20px; /* Gewone padding, niet vw */
-  scroll-behavior: smooth; /* Soepel scrollen */
+  display: flex; /* zet ze naast elkaar */
+  overflow-x: auto; /* horizontaal scrollen */
+  gap: 10px; /* minder ruimte tussen plaatjes */
+  padding: 15px; /* niet te veel ruimte */
+  scroll-behavior: smooth; /* lekker soepel scrollen */
 }
 
 .afbeelding-galerij img {
-  height: 200px; /* Vaste hoogte */
-  width: auto; /* Laat breedte meegroeien */
-  flex-shrink: 0; /* Niet laten krimpen */
-  border-radius: 10px; /* Ronde hoeken */
-  object-fit: contain; /* Laat hele afbeelding zien */
-  padding: 10px; /* Beetje ruimte rondom */
+  height: 150px; /* kleiner zodat het past */
+  width: auto; /* breedte past zich aan */
+  flex-shrink: 0; /* niet laten krimpen */
+  border-radius: 10px; /* ronde hoeken zijn chill */
+  object-fit: contain; /* hele afbeelding zichtbaar */
+  padding: 5px; /* beetje ruimte rondom */
 }
 
 /*tekst*/
