@@ -128,12 +128,12 @@ h2 {
 }
 
 h3 {
-  color:rgb(173, 204, 182); /*Tekstkleur*/
+  color:rgb(182, 225, 195); /*Tekstkleur*/
   text-align:center; /*Centreert tekst op de pagina*/
   font-family:sans-serif; /*Font (stijl) van de tekst*/
   font-size: 26px; /*Grootte van de tekst*/
   width: 30%; /*Zorgt voor halve breedte op het scherm*/
-  background-color: rgb(77, 103, 79);padding:10px; /*Achtergrondkleur van de tekst met ruimte*/
+  background-color: rgb(63, 86, 65);padding:10px; /*Achtergrondkleur van de tekst met ruimte*/
   width: 300px; /*Breedte van de box*/
   margin: 20px auto; /*Centreren op de pagina*/
   border-radius: 15px; /*Maakt de hoeken rond*/
