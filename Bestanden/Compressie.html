@@ -1,16 +1,20 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--Het element geeft aan dat dit een HTML document is-->
 <html> <!--Dit is het beginelement van html-->
 
 <head> <!--Dit is het beginelement van head-->
-  <title>Compressie</title>
+  <title>Compressie</title> <!--Dit is het element van de titel--> 
+
+  <!--Dit element voegt een favicon toe aan mijn website, een icoontje in het tabblad-->
   <link rel="icon" href="../Afbeeldingen/lisa.png" type="image/x-icon">
 
-  <link rel="stylesheet" type="text/css" href="../Style.css"> <!--dit is de link voor het CSS bestand, deze koppelt met html-->
+  <!--Dit is de link voor het CSS bestand, deze koppelt met html-->
+  <link rel="stylesheet" type="text/css" href="../Style.css">
   
+  <!--Dit element zorgt ervoor dat mijn website goed schaalt op mobiel, tablet en computer-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head> <!--Dit is het sluitelement van head-->
 
-<body>
+<body> <!--Dit is het beginelement van body, begin van de zichtbare inhoud van mijn website-->
 
   <div class="navbar"> <!--Dit is de navigatiebalk van de pagina-->
   <a href="../index.html">Home</a> <!--Dit is de link naar de home pagina-->
@@ -35,17 +39,27 @@
   <h2>Welkom op de pagina Compressie!</h6> <!--Dit is een tekstelement voor de ondertitel-->
   <h3>Compressie</h3> <!--Dit is een tekstelement voor het kopje van de alinea-->
 
-  <div style="text-align:center; margin:40px 0;">
-    <img src="../Afbeeldingen/giphy.gif" alt="Dansende poes"
-      style="width:90%; max-width:150px;">
-  </div>
+  <div style="text-align:center; margin:40px 0;"> <!--Dit is de container die de GIF afbeelding centreert-->
+    <img src="../Afbeeldingen/giphy.gif" alt="Dansende poes" 
+      style="width:90%; max-width:150px;"> <!--Dit is een GIF met maximale breedte van 150px-->
+  </div> <!--Dit is het sluitelement van de container-->
 
-  <h4>Compressie is een methode om bestanden kleiner te maken zodat ze minder opslagruimte innemen en sneller kunnen verzenden. Er zijn twee soorten compressie:
-    <ul>
-      <li><b>Lossless compressie:</b> alle originele gegevens blijven bewaard. Dit wordt gebruikt bij tekstbestanden en sommige afbeeldingen met een bepaalde naam (zoals PNG).</li>
-      <li><b>Lossy compressie:</b> sommige gegevens worden verwijderd om ruimte te besparen. Dit wordt veel gebruikt bij foto's (zoals JPEG) en muziek (zoals MP3).</li>
-    </ul>
-    Compressie is belangrijk voor websites, apps en digitale communicatie. Omdat het zorgt voor snellere laadtijden en minder dataverbruik. Je bespaart er dus veel tijd mee en hebt meer opslag voor andere data.</h4> <!--Dit is een tekstelement voor tekst in de alinea-->
+  <h4> <!--Dit is een tekstelement voor tekst in de alinea-->
+    Compressie is een methode om bestanden kleiner te maken zodat ze minder opslagruimte 
+    innemen en sneller kunnen verzenden. Er zijn twee soorten compressie:
+    <ul> <!--Dit is het begin van de ongeordende lijst-->
+      <li><b>Lossless compressie:</b> alle originele gegevens blijven bewaard. Dit wordt 
+        gebruikt bij tekstbestanden en sommige afbeeldingen met een bepaalde naam (zoals PNG).
+      </li> <!--De <li> elementen zijn bolletjes, voor ordening van de tekst met dikgedrukte letters.-->
+
+      <li><b>Lossy compressie:</b> sommige gegevens worden verwijderd om ruimte te besparen. 
+        Dit wordt veel gebruikt bij foto's (zoals JPEG) en muziek (zoals MP3).
+      </li>
+    </ul> <!--Dit is het einde van de ongeordende lijst-->
+    Compressie is belangrijk voor websites, apps en digitale communicatie. Omdat het zorgt voor 
+    snellere laadtijden en minder dataverbruik. Je bespaart er dus veel tijd mee en hebt meer 
+    opslag voor andere data.
+  </h4> <!--Dit is een sluitende tekstelement voor tekst in de alinea-->
 
   <div style="text-align: center; margin: 40px 0;"> <!--Deze container centreert de afbeelding en geeft er ruimte aan-->
     <img src="../Afbeeldingen/lossylossless.webp" alt="Lossy en lossless"
@@ -68,16 +82,27 @@
 
   <p class="outset">Klik op de knop om een uitleg video over bitmap en vector te bekijken!</p> <!--Dit is een outset tekst-->
 
-  <div style="text-align:center; margin:60px 0;">
-    <a href="https://www.youtube.com/watch?v=-Fs2t6P5AjY&t=24s" target="_blank">
+  <div style="text-align:center; margin:60px 0;"> <!--Dit is een container die de knop centreert en ruimte geeft boven en onderaan-->
+    <a href="https://www.youtube.com/watch?v=-Fs2t6P5AjY&t=24s" target="_blank"> <!--Dit is de link naar de Youtube video over bitmap en vector-->
       <button style="padding:10px 5%; font-size:1rem; background-color:#3d5f4a; color:white; border:none; border-radius:6px;">
         Bekijk YouTube-video
-      </button>
-    </a>
-  </div>
+      </button> <!--Dit is een klikbare knop met styling (donkere hoeken en afgeronde hoeken) met tekst-->
+    </a> <!--Sluitelement van de hyperlink naar de Youtube video-->
+  </div> <!--Dit is het sluitelement van de container-->
 
   <h3>Opslag beeld en geluid - pixel tot geluidsgolf</h3> <!--Dit is een tekstelement voor het kopje van de alinea-->
-  <h4>Computers slaan beeld en geluid op als digitale gegevens, die bestaan uit een reeks nullen en enen. Bij <b>beeldomslag</b> wordt een afbeelding opgeslagen als een geheel van pixels, waarvan elke pixel een speciale kleurcode heeft. Een simpele regel die hierbij geldt is: des te hoger de resolutie, des te meer gegevens er voor nodig is. <br><br> Bij geluidsopslag worden geluidsgolven omgezet in digitale samples. Een sample is een "monster" (voorbeeldexemplaar / proeve). Hoe meer samples er per seconde zijn (bijvoorbeeld 44.100 Hz bij CD-kwaliteit), hoe beter de geluidskwaliteit zal zijn. Bestandsformaten zoals MP3, WAV, JPEG en PNG bepalen hoe deze gegevens worden opgeslagen en samengedrukt.</h4>
+  
+  <h4> <!--Dit is een tekstelement voor tekst in de alinea met witregels-->
+    Computers slaan beeld en geluid op als digitale gegevens, die bestaan uit 
+    een reeks nullen en enen. Bij <b>beeldomslag</b> wordt een afbeelding opgeslagen 
+    als een geheel van pixels, waarvan elke pixel een speciale kleurcode heeft. Een 
+    simpele regel die hierbij geldt is: des te hoger de resolutie, des te meer gegevens 
+    er voor nodig is. <br><br> Bij geluidsopslag worden geluidsgolven omgezet in digitale 
+    samples. Een sample is een "monster" (voorbeeldexemplaar / proeve). Hoe meer samples 
+    er per seconde zijn (bijvoorbeeld 44.100 Hz bij CD-kwaliteit), hoe beter de geluidskwaliteit 
+    zal zijn. Bestandsformaten zoals MP3, WAV, JPEG en PNG bepalen hoe deze gegevens worden 
+    opgeslagen en samengedrukt.
+  </h4> <!--Dit is een sluitende tekstelement voor tekst in de alinea-->
 
   <div style="text-align: center; margin: 40px 0;"> <!--Deze container centreert de afbeelding en geeft er ruimte aan-->
     <img src="../Afbeeldingen/audiocompression.webp" alt="Audiocompressie"
