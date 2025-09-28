@@ -83,7 +83,6 @@ background-color: rgb(199, 247, 212);
 /*dropdown menu*/
 
 /*Scroll galerij*/
-/* scrol gallerij */
 .afbeelding-galerij {
   display: flex; /* zet ze naast elkaar */
   overflow-x: auto; /* horizontaal scrollen */
