@@ -132,7 +132,7 @@ h3 {
   text-align:center; /*Centreert tekst op de pagina*/
   font-family:sans-serif; /*Font (stijl) van de tekst*/
   font-size: 26px; /*Grootte van de tekst*/
-  width: 30%; /*Zorgt voor halve breedte op het scherm*/
+  width: 50%; /*Zorgt voor halve breedte op het scherm*/
   background-color: rgb(144, 165, 146);padding:10px; /*Achtergrondkleur van de tekst met ruimte*/
   width: 300px; /*Breedte van de box*/
   margin: 20px auto; /*Centreren op de pagina*/
