@@ -1,52 +1,54 @@
-body {
+body { /*Dit is het beginelement voor de algemene opmaak van de gehele pagina*/
 
-background-color: rgb(199, 247, 212);
+background-color: rgb(199, 247, 212); /*Dit is het element voor de achtergrondkleur van elke pagina*/
 
+/*Navigatiebalk stijl*/
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #95ca91;
-  font-family: sans-serif;
-  padding: 10px 5%;
-  flex-wrap: wrap; /* Zorgt dat items op kleinere schermen onder elkaar komen */
+  display: flex; /*Dit zet de items naast elkaar in een flexbox*/
+  justify-content: space-between; /*Dit element verdeelt de ruimte tussen links*/
+  align-items: center; /*Dit centreert de items verticaal binnen in de navbar*/
+  background-color: #95ca91; /*Dit element geeft een lichtgroene achtergrondkleur*/
+  font-family: sans-serif; /*Dit element geeft de tekst een font; deze is sans-serif*/
+  padding: 10px 5%; /*De padding zorgt voor ruimte boven/onder en aan de zijkanten*/
+  flex-wrap: wrap; /*Zorgt dat items op kleinere schermen onder elkaar komen*/
 }
 
-/* Navigatielinks */
+/*Navigatielinks*/
 .navbar a {
-  font-size: 1.2rem;
-  color: white;
-  text-align: center;
-  padding: 15px 20px;
-  text-decoration: none;
-  flex: 1 1 auto; /* Laat links meeschalen */
+  font-size: 1.2rem; /*Dit element maakt de tekst iets groter zodat het beter leesbaar wordt*/
+  color: white; /*Het color element is voor de tekstkleur; wit*/
+  text-align: center; /*Text-align zorgt ervoor dat de tekst gecentreerd staat op de pagina*/
+  padding: 15px 20px; /*De padding zorgt voor ruimte boven/onder en aan de zijkanten*/
+  text-decoration: none; /*Dit verwijdert de standaard onderstreping van de links*/
+  flex: 1 1 auto; /*Laat links meeschalen in de flexbox*/
 }
 
-/* Logo */
+/*Logo*/
 .logo img {
-  height: 50px;
-  width: auto;
-  display: block;
-  margin-right: 10px;
+  height: 50px; /*De standaardhoogte van het logo*/
+  width: auto; /*Hierdoor schaalt de breedte automatisch mee met de hoogte van het logo*/
+  display: block; /*Dit verwijdert witruimte die mogelijk onder de afbeelding komt*/
+  margin-right: 10px; /*Dit is de ruimte tussen het logo en de andere knoppen, naar rechts*/
 }
 
-/* Dropdown */
+/*Dropdown container binnen de navigatiebalk*/
 .dropdown {
-  position: relative;
-  flex: 1 1 auto;
+  position: relative; /*Dit element zorgt dat het dropdown-menu absoluut gepositioneerd wordt in de container*/
+  flex: 1 1 auto; /*Dit element laat de dropdown meeschalen binnenin de flexbox*/
 }
 
+/*Stijl voor de knop die het dropdown-menu gaat openen*/
 .dropdown .dropbtn {
-  font-size: 1.2rem;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 15px 20px;
-  background-color: inherit;
-  font-family: sans-serif;
-  margin: 0;
-  width: 100%;
-  text-align: center;
+  font-size: 1.2rem; /*Dit geeft een grotere tekst zodat het beter leesbaar is*/
+  border: none; /*Verwijdert de standaardrand van knoppen*/
+  outline: none; /*Verwijdert de focusrand die meestal komt tijdens het klikken*/
+  color: white; /*Maakt de kleur van de tekst wit*/
+  padding: 15px 20px; /*Dit element geeft ruimte rondom de tekst*/
+  background-color: inherit; /*Dit element neemt de achtergrondkleur van de navbar over*/
+  font-family: sans-serif; /*Geeft de tekst een font; in dit geval sans-serif voor stijl*/
+  margin: 0; /*Dit element geeft geen extra marge rondom de knop*/
+  width: 100%; /*Dit laat de knop de volledige breedte van de container innemen*/
+  text-align: center; /*Hierdoor wordt de tekst gecentreerd*/
 }
 
 .navbar a:hover,
