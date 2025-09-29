@@ -223,11 +223,11 @@ h4 {
   width: 95%; /*Dit neemt 95% van de beschikbare ruimte in*/
   max-width: 1000px; /*De maximale breedte, namelijk 1000 px*/
   margin: 40px auto; /*dit is de boven en onder marge, dit is horizontaal gecentreerd*/
-  font-size: 1rem; /*basisgrootte voor tekst*/
+  font-size: 1rem; /*basisgrootte voor tekst, rem staat gelijk aan de grootte van <html> tekstgrootte*/
 }
 
 /*Footer is hierdoor ook zichtbaar voor jou op kleinere schermen zoals telefoon*/
-@media (max-width: 600px) {
+@media (max-width: 600px) { /*De maximale breedte is hierdoor 600 pixels*/
   .footer {
     padding: 10px; /*geeft een beetje minder ruimte rondom de tekst, handig voor kleine schermen*/
     font-size: 0.9rem; /*iets kleinere tekst op kleine schermen*/
