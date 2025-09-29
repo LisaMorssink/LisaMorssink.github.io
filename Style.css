@@ -106,6 +106,13 @@ background-color: rgb(199, 247, 212); /*Dit is het element voor de achtergrondkl
   padding: 5px; /*Geeft ruimte rondom de afbeeldingen*/
 }
 
+/*Opmaak van de tutorial video*/
+.tutorialvideo {
+  max-width: 600px; /*Mijn uitleg video mag maximaal 600 pixels breed zijn*/
+  width: 100%;      /*Responsive functie gemaakt: op de kleinere schermen past de video zich automatisch aan*/
+  margin: auto;     /*Zorgt dat de video netjes in het midden staat*/
+}
+
 /*tekst Outset opmaak*/
 p.outset {
   border-style: outset; /*Geeft de border een 3D rand*/
@@ -116,6 +123,7 @@ p.outset {
   font-size: 1.1rem; /*Schaalbare tekstgrootte*/
 }
 
+/*Tekstopmaak*/
 h1 {
   color: rgb(63, 98, 90); /*donkergroene tekstkleur*/
   text-align: center; /*zet de tekst in het midden*/
