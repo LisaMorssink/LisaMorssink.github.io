@@ -106,32 +106,7 @@ background-color: rgb(199, 247, 212); /*Dit is het element voor de achtergrondkl
   padding: 5px; /*Geeft ruimte rondom de afbeeldingen*/
 }
 
-/*Container die het Binary Bonanza spel in het midden zet en onnuttige inhoud weghaalt*/
-.binair-spel {
-  display: flex; /*Plaatst de inhoud horizontaal op het scherm*/
-  justify-content: center; /*Zorgt ervoor dat het spel in het midden staat*/
-  margin: 40px auto; /*Geeft extra ruimte boven en onder, hier 40 pixels met auto functie*/
-  overflow: hidden; /*Verbergt alles wat buiten het frame valt, zodat het niet slordig wordt*/
-}
-
-/*Styling van het spel iframe (Binary Bonanza)*/
-.spelframe {
-  width: 700px; /*Originele breedte van het spel - 700 pixels*/
-  height: 500px; /*Originele hoogte van het spel - 500 pixels*/
-  border: none; /*Deze functie verwijdert de rand rondom het iframe*/
-}
-
-/*Responsief | aanpassing voor kleinere schermen zoals telefoons zodat je ook daar het spel kan spelen*/
-@media (max-width: 500px) { /*Dit geeft het een maximale breedte van 500 pixels*/
-  .spelframe { /*Dit is het beginelement van het spelframe*/
-    transform: scale(0.6); /*Verkleint het spel zodat het duidelijk binnen een scherm past*/
-    transform-origin: top left; /*Zorgt ervoor dat de verkleining begint op linksboven, zodat het goed past*/
-    width: 700px; /*Houd de originele breedte zodat de schaal werkt, namelijk 700 pixels breedte*/
-    height: 500px; /*Houd de originele hoogte zodat de schaal werkt, namelijk 500 pixels hoogte*/
-  }
-}
-
-/*tekst*/
+/*tekst Outset opmaak*/
 p.outset {
   border-style: outset; /*Geeft de border een 3D rand*/
   text-align: center; /*Centreert de tekst*/
