@@ -213,16 +213,27 @@ h4 {
 
 /*footer*/
 .footer {
-  background-color: #488461; /*geeft de footer een donkergroene kleur*/
+  background-color: #488461; /*geeft de footer een donkergroene achtergrond-kleur*/
   color: white; /*geeft de tekst een witte kleur*/
   text-align: center; /*zorgt dat de tekst gecentreerd staat*/
   padding: 15px; /*geeft ruimte rondom de tekst*/
-  font-family: sans-serif; /*zorgt dat de tekst een font heeft: sans-serif*/
+  font-family: sans-serif; /*zorgt dat de tekst een font heeft, bij deze is het de stijlvolle sans-serif*/
   border-radius: 15px; /*geeft ronde hoeken aan de footer*/
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /*maakt een mooi 3D schaduw effect*/
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /*maakt een mooi schaduw effect met bepaalde grootte*/
   width: 95%; /*Dit neemt 95% van de beschikbare ruimte in*/
-  max-width: 1000px; /*De maximale breedte, 1000 px*/
-  margin: 40px auto; /*dit is de boven- en ondermarge, deze is horizontaal gecentreerd*/
-} 
+  max-width: 1000px; /*De maximale breedte, namelijk 1000 px*/
+  margin: 40px auto; /*dit is de boven en onder marge, dit is horizontaal gecentreerd*/
+  font-size: 1rem; /*basisgrootte voor tekst*/
+}
+
+/*Footer is hierdoor ook zichtbaar voor jou op kleinere schermen zoals telefoon*/
+@media (max-width: 600px) {
+  .footer {
+    padding: 10px; /*geeft een beetje minder ruimte rondom de tekst, handig voor kleine schermen*/
+    font-size: 0.9rem; /*iets kleinere tekst op kleine schermen*/
+    border-radius: 10px; /*iets minder ronde hoek op kleine schermen*/
+    margin: 20px auto; /*mindere marge boven en onder op kleine schermen*/
+  }
+}
 
 } /*het sluitelement van body*/
