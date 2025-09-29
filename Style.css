@@ -120,7 +120,7 @@ p.outset {
   margin: 40px auto; /*Gecentreerd op de pagina*/
   width: 90%; /*Past zich aan schermbreedte aan*/
   max-width: 600px; /*Beperkt breedte op grote schermen*/
-  font-size: 1.1rem; /*Schaalbare tekstgrootte*/
+  font-size: 1.1rem; /*Schaalbare tekstgrootte, 1 rem is gelijk aan de lettergrootte van het <html> element*/
 }
 
 /*Tekstopmaak*/
