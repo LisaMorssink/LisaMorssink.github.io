@@ -108,7 +108,7 @@ background-color: rgb(199, 247, 212); /*Dit is het element voor de achtergrondkl
 
 /*Opmaak van de tutorial video*/
 .tutorialvideo {
-  max-width: 600px; /*Mijn uitleg video mag maximaal 600 pixels breed zijn*/
+  max-width: 700px; /*Mijn uitleg video mag maximaal 700 pixels breed zijn*/
   width: 100%;      /*Responsive functie gemaakt: op de kleinere schermen past de video zich automatisch aan*/
   margin: auto;     /*Zorgt dat de video netjes in het midden staat*/
 }
